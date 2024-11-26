@@ -1,0 +1,88 @@
+/* Global settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #343a40;
+    color: white;
+    border-bottom: 2px solid #e3e3e3;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 1.8rem;
+  }
+  
+  /* Container for the food menu section */
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Food item box style */
+  .col-xs-12 {
+    background-color: #d3d3d3;  /* Light gray background */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Food name text color */
+  .col-xs-12 h2 {
+    color: black;
+    font-size: 2rem; /* Adjust size */
+    font-weight: bold;
+  }
+  
+  /* Text inside the boxes */
+  .col-xs-12 p {
+    color: black;
+    font-size: 1rem; /* Adjust size */
+    line-height: 1.5;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Back to Top button - positioned at the bottom */
+  #backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .navbar {
+      text-align: center;
+    }
+  
+    .col-xs-12 {
+      margin: 10px 0;
+    }
+  
+    .col-xs-12 h2 {
+      font-size: 1.8rem;
+    }
+  
+    .col-xs-12 p {
+      font-size: 0.9rem;
+    }
+  }
+  
